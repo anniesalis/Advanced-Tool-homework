@@ -3,12 +3,11 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
 body {
   background: rgb(236, 236, 241);
   box-shadow: rgb(163, 163, 185);
+  padding: 20px;
 }
-
 h1,
 h2,
 h3 {
@@ -98,3 +97,17 @@ p {
 .button-color {
   color: #6c63ff;
 }
+@media (max-width: 575px) {
+  body {
+    max-width: 575;
+    
+  }
+  h1 {
+    font-size: 36px;
+  }
+
+  .hello {
+    font-size: 0;
+  }
+}
+
